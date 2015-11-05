@@ -1,42 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Dilip Ramesh</title>
-    <style>
-      *{
-        height: 100%;
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-      }
-      
-      div{
-        height: 100%;
-        width: 100%;
-        vertical-align: middle;
-        position: relative;
-      }
-      
-      h1{
-        color: black;
-        background-color: #fafafa;
-        height: 75%;
-        font-size: 2em;
-        margin: auto auto;
-        width: auto;
-        text-align: center;
-        font-family: helvetica;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-      }
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        html,body{
+            height: 200%;
+            width: 100%;
+        }
+
+        .item{
+            width: 70%;
+            margin: auto auto;
+        }
+
+        #item0{
+            background-color: black;
+            height: 2%;
+            margin: auto auto;
+        }
+
+        #item1{
+            height: 18%;
+            background-color: blue;
+        }
+
+        #item2{
+            height: 5%;
+        }
+
+        .subitem{
+            width: 33.333%;
+            float: left;
+            height: 100%;
+        }
+
+        #subitem21{
+            background-color: yellow;
+        }
+
+        #subitem22{
+            background-color: purple;
+        }
+
+        #subitem23{
+            background-color: green;
+        }
+
+        #landing{
+            height: 100%;
+            width: auto;
+            text-align: center;
+        }
+
+        #landing h1{
+            height: 100%;
+            font-size: ;
+        }
     </style>
-  </head>
-  <body>
-    <div>
-      <h1>Dilip Ramesh</h1>
-    </div>
-  </body>
+</head>
+<body>
+    <header id="item0" class="item"></header>
+    <article id="item1" class="item">
+        <section id="landing">
+            <h1>Dilip Ramesh</h1>
+        </section>
+    </article>
+    <article id="item2" class="item">
+        <section id="subitem21" class="subitem"></section>
+        <section id="subitem22" class="subitem"></section>
+        <section id="subitem23" class="subitem"></section>
+    </article>
+</body>
 </html>
